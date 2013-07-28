@@ -1,0 +1,24 @@
+iisnode/
+web.config
+
+<<<<<<< .mine
+# modules
+[Nn]ode_modules/
+=======
+web.config
+iisnode
+>>>>>>> .theirs
+
+<<<<<<< .mine
+
+#arquivo de configuração de envio de email e banco
+configLocal.js
+=======
+web.config
+
+robots.txt
+
+
+>>>>>>> .theirs
+
+/manifest.yml

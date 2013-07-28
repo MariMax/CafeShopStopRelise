@@ -1,0 +1,48 @@
+<% layout('../layout') -%>
+<div class="admin_page">
+<div class="admin_content">
+    <div class="admin_info">
+        <h3>Настройки пользователя</h3>
+        <form method="post" action="" class="horizontal">
+            <div id ="messenger"> </div>
+            <input id="userId" type="hidden" size="60" name="userId" value="<%=userId%>" hidden>
+            <div class="form_item">
+                <div class="label">Имя пользователя</div>
+                <div class="input"><input id="name" type="text" size="60" name="Name" ></div>
+            </div>
+            <div class="form_but">
+                <input type="button" id="cahngeName" value="Изменить имя" class="button succes">
+            </div>
+
+         <h3></h3>
+            <div class="form_item">
+                <div class="label">email пользователя</div>
+                <div class="input"><input id="email" type="email" size="60" name="email" ></div>
+            </div>
+            <div class="form_but">
+                <input type="button" id="cahngeEmail" value="Изменить email" class="button succes">
+            </div>
+            <h3></h3>
+            <div class="form_item">
+                <div class="label">Старый пароль</div>
+                <div class="input"><input id="OldPassword" type="password" size="60" name="OldPassword" ></div>
+            </div>
+            <div class="form_item">
+                <div class="label">Новый пароль</div>
+                <div class="input"><input id="NewPassword" type="password" size="60" name="NewPassword" ></div>
+            </div>
+            <div class="form_item">
+                <div class="label">Подтверждение нового пароля</div>
+                <div class="input"><input id="PasswordConfirmation" type="password" size="60" name="PasswordConfirmation" ></div>
+            </div>
+            <div class="form_but">
+                <input type="button" id="cahngePassword" value="Изменить пароль" class="button succes">
+            </div>
+
+
+        </form>
+    </div>
+</div>
+</div>
+
+<script src="/script/UserUpdate.js" type="text/javascript"></script>
